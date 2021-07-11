@@ -2917,12 +2917,16 @@ var useKonamiCheatCode = function (matchedCodeHandler) {
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#008E46",
-    primaryBright: "#008E46",
-    primaryDark: "#008E46",
-    secondary: "#008E46",
+    primary: "#b50808",
+    primaryBright: "#b50808",
+    primaryDark: "#b50808",
+    secondary: "#000000",
     success: "#008E46",
     warning: "#FFB237",
+    yellow: "#FFFF00",
+    blue: "#0000FF",
+    red: "#FF0000",
+    grey: "#808080"
 };
 var additionalColors = {
     binance: "#F0B90B",
@@ -3007,10 +3011,10 @@ var dark$3 = {
 };
 
 var light$2 = {
-    background: lightColors.backgroundAlt,
+    background: lightColors.secondary,
 };
 var dark$2 = {
-    background: darkColors.backgroundAlt,
+    background: darkColors.secondary,
 };
 
 var light$1 = {
